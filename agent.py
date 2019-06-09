@@ -33,6 +33,13 @@ class Agent():
             state_size (int): dimension of each state
             action_size (int): dimension of each action
             seed (int): random seed
+            double_update: boolean indicating whether to use double Q Network to update weights
+            buffer_size: the size of the replay buffer
+            batch_size: the batch size for training
+            gamma: the discount factor
+            tau: the value of tau for soft-update
+            lr: learning rate to pass to the optimizer
+            update_every: the number of iterations before the target network is updated
         """
         self.state_size = state_size
         self.action_size = action_size
