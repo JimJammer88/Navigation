@@ -17,3 +17,24 @@ Navigation assignment for the Deep Learning Nanodegree
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
 2. Place the file in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning), in the `p1_navigation/` folder, and unzip (or decompress) the file.
+
+
+## Files
+
+1. Navigation_Solution.ipynb
+Thy ipython notebook loads the environment and controls the training of the agent. 
+
+2. agent.py
+This file defines the Agent class and the Replay Buffer class.
+
+3. model_dueling.py
+The class DuelingQNetwork extends PyTorch.NN.Module and defines the Q-Network architecure.
+
+4. Report.pdf
+The project report
+
+5. WeightsAtSolved.pth
+Pickled file created using torch.save(). This stores the model weights at the point at which the episode is solved.
+
+6. FinalWeight.pth
+Pickled file created using torch.save(). This stores the model weights at the point at which training terminates(after 700 episodes).
