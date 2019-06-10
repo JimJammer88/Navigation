@@ -1,7 +1,9 @@
 # Navigation
 Navigation assignment for the Deep Learning Nanodegree
 
+This repository contains the code required to train an agent to solve the Banana Collector Environment provided by Udacity.
 
+The notebook is saved with outputs from the training I have undertaken. The model weights are also stored in the repository.
 
 
 ## Dependencies
